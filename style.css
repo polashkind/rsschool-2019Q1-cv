@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.header, .main {
-  
-}
-
 .rectangle {
   width: 200px;
   height: 250px;
@@ -31,7 +27,14 @@
 .contact {
   display: flex;
   flex-direction: column;
-  margin: 50px 70px;
+  margin: -16px 45px 10px;
+}
+
+.phone, 
+.addres,
+.mail {
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
 
 h1, h2 {
