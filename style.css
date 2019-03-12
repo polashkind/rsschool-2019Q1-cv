@@ -70,17 +70,20 @@ li:nth-child(n+2) {
 
 .shadow {
   background: #f7f7f7; /* Цвет фона */
-  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Параметры тени */
   padding: 10px;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 700px;
- }
+}
+
+.education p {
+  margin-top: 1em;
+}
 
 a {
   text-decoration: none;
   color: #494545;
-  margin-bottom: -0.1em;
-  margin-top: -0.1em;
+  margin: 0.3em 0;
 }
 
 a:hover {
