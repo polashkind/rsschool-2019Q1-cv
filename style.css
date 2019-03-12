@@ -30,13 +30,6 @@
   margin: -16px 45px 10px;
 }
 
-.phone, 
-.addres,
-.mail {
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
-}
-
 h1, h2 {
   color:  #8FBC8F;
   margin-bottom: 1em;
@@ -82,3 +75,14 @@ li:nth-child(n+2) {
   margin: 0 auto;
   width: 700px;
  }
+
+a {
+  text-decoration: none;
+  color: #494545;
+  margin-bottom: -0.1em;
+  margin-top: -0.1em;
+}
+
+a:hover {
+  color: #2eb398;
+}
