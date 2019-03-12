@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.header, .main {
+  
 }
 
 .rectangle {
@@ -16,7 +21,7 @@
 }
 
 .header-wrapper {
-  width: 1020px;
+  width: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
@@ -28,6 +33,7 @@
   flex-direction: column;
   margin: 50px 70px;
 }
+
 h1, h2 {
   color:  #8FBC8F;
   margin-bottom: 1em;
@@ -50,7 +56,7 @@ h1:after, h2::after {
 }
 
 .main-wrapper {
-  width: 1020px;
+  width: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -65,3 +71,11 @@ li {
 li:nth-child(n+2) {
   margin-top: 0.5em;
 }
+
+.shadow {
+  background: #f7f7f7; /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  padding: 10px;
+  margin: 0 auto;
+  width: 700px;
+ }
