@@ -14,7 +14,6 @@ I want to became a good web developer. I hope that my work will bring me pleasur
 * Git
 ***
 **Code examples**
-<
 
     class GuessingGame {
       constructor() {
@@ -43,13 +42,13 @@ I want to became a good web developer. I hope that my work will bring me pleasur
     }
 
     module.exports = GuessingGame;
->
+
 ***
 **Education:**  
 * Universitet: Belarusian National Technical University, 2014
 * Faculty: Power Engineering
 * Department: Thermal Power Plants
 
-*[HTMLacademy](https://htmlacademy.ru/profile/id1196941)
+* [HTMLacademy](https://htmlacademy.ru/profile/id1196941)
 ***
-**English level:** A2. I keep learning on my own at the University
+**English level:** Pre-Intermediate (A2). I keep learning on my own at the University.
