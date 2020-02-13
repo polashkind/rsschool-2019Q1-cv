@@ -23,39 +23,56 @@
       <main class="main">
         <div class="main-wrapper">
           <section>
-            <h2>PROFESSIONAL SUMMARY*</h2>
+            <h2>PROFESSIONAL SUMMARY</h2>
             <p>
-              Accomplished Operations executive with a successful track record overseeing regional Marketing, 
-              IT, HR/training and property in company and franchise operations for a large chain of restaurants.
+              I want to became a good web developer. I hope that my work will bring me pleasure and good income. I am purposeful and responsible and i have a great desire to learn.
             </p>
           </section>
           <section>
-            <h2>SKILLS*</h2>
+            <h2>SKILLS</h2>
             <ul type="circle">
-              <li>Executive team leadership </li>
-              <li>Multi-million pound P&L management expertise for South East Region</li>
-              <li>Client/vendor relations</li>
-              <li>Marketing/product line development</li>
-              <li>Staff/training policy development </li>
-              <li>Process improvement</li>
+              <li>HTML5 </li>
+              <li>CSS3</li>
+              <li>Java Script (base)</li>
+              <li>Git</li>
             </ul>
           </section>
           <section>
-            <h2>WORK HISTORY*</h2>
-            <ul>
-              <li>Directed recruitment/training/staff development initiatives to maximize productivity and revenue potential through development of a sales team.</li>
-              <li>Successfully increased employee retention by created a positive work environment in 18 stores.</li>
-              <li>Administered daily operations to ensure policies were adhered to and understood by sales staff.</li>
-              <li>Cultivated strong business relationships with customers to drive business development.</li>
-              <li>Planned and executed floor merchandising initiatives in collaboration with merchandise management.</li>
-              <li>Ensure store is prepared for internal audits through analysis/preparation of quality assurance and Inventory statistics.</li>
-            </ul>
+            <h2>Code examples</h2>
+            <code>
+              class GuessingGame {
+  constructor() {
+      this.min = 0;
+      this.max = 0;
+      this.result = 0;
+ }
+
+ setRange(min, max) {
+     this.min = min;
+     this.max = max;
+ }
+
+ guess() {
+     this.result = Math.ceil((this.max + this.min) / 2);
+     return this.result;
+ }
+
+ lower() {
+     this.max = this.result;
+ }
+
+ greater() {
+     this.min = this.result;
+ }
+}
+
+module.exports = GuessingGame;
+            </code>
           </section>
           <section class="education">
             <h2>EDUCATION</h2>
             <p>Belarusian National Technical University, 2014 Faculty Power Engineering Department Thermal Power Plants</p>
-            <p>English Level: A2</p>
-            <p>* Joke :)</p>
+            <p>English Level: Pre-Intermediate (A2). I keep learning on my own at the University.</p>
           </section>
         </div>
       </main>
