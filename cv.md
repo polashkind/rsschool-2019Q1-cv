@@ -1,15 +1,46 @@
 ### MY RESUME
 
 **Name, last name:**  *Palina Marynovich*
-**Cotacts:** Minsk, First str., 88-12, +375(44)744-29-79
-**Summary:** Skilled Client Support Technical with extensive IT background. Enjoys troubleshooting to find solutions to technical issues. Suking to benefit an IT Department with complex technical knowledge and strong leadership slills
-**Skills:** 
-1. Executive team leadership;
-2. Client/vendor relations;
-3. Marketing/product line development;
-4. Process improvement.
+**Cotacts:** Minsk, Kamennogorskaya str., 88-29, +375(44)744-29-79
+**Summary:** 
+I want to became a good web developer. I hope that my work will bring me pleasure and good income. I am purposeful and responsible and i have a great desire to learn.
+**Skills:**
+* HTML5
+* CSS3
+* Java Script (base)
+* Git
+**Code examples*
+class GuessingGame {
+    constructor() {
+        this.min = 0;
+        this.max = 0;
+        this.result = 0;
+    }
+
+    setRange(min, max) {
+        this.min = min;
+        this.max = max;
+    }
+
+    guess() {
+        this.result = Math.ceil((this.max + this.min) / 2);
+        return this.result;
+    }
+
+    lower() {
+        this.max = this.result;
+    }
+
+    greater() {
+        this.min = this.result;
+    }
+}
+
+module.exports = GuessingGame;
+
 **Education:**  
 * Universitet: Belarusian National Technical University, 2014
 * Faculty: Power Engineering
 * Department: Thermal Power Plants
-**English level:** A2
+*[HTMLacademy]:https://htmlacademy.ru/profile/id1196941
+**English level:** A2. I keep learning on my own at the University
