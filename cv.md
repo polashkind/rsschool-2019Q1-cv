@@ -14,7 +14,9 @@ I want to became a good web developer. I hope that my work will bring me pleasur
 * Git
 
 **Code examples*
-<class GuessingGame {
+<
+
+class GuessingGame {
     constructor() {
         this.min = 0;
         this.max = 0;
@@ -40,7 +42,8 @@ I want to became a good web developer. I hope that my work will bring me pleasur
     }
 }
 
-module.exports = GuessingGame;>
+module.exports = GuessingGame;
+>
 
 **Education:**  
 * Universitet: Belarusian National Technical University, 2014
