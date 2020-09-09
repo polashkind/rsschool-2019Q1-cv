@@ -1,1 +1,1 @@
-https://polashkind.github.io/rsschool-2019Q1-cv/cv
+https://polashkind.github.io/rsschool-2020Q3-cv/cv
